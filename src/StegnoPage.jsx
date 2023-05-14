@@ -2,12 +2,12 @@ import React from "react";
 
 function StegnoPage() {
   return (
-    <>
+    <div className="bg-gray-800">
       <link
         rel="stylesheet"
         href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"
       />
-      <div className="container ">
+      <div className="container">
         <div className="page-header">
           <h1>Steganography Online</h1>
         </div>
@@ -127,7 +127,7 @@ function StegnoPage() {
           __html: "\n    canvas {\n      max-width: 100%;\n    }\n  ",
         }}
       />
-    </>
+    </div>
   );
 }
 

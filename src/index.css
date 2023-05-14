@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  background-color: #1f2937;
+}
+
+.page-header {
+  font-weight: 700;
+  line-height: 1;
+  font-size: 4.5rem;
+  color: transparent;
+  background-color: #2563eb;
+  background-color: #93c5fd;
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  background-clip: text;
+}
+#encode {
+  font-weight: 700;
+  line-height: 1;
+  font-size: 4.5rem;
+  color: transparent;
+  background-color: #2563eb;
+  background-color: #93c5fd;
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  background-clip: text;
+}
